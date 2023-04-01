@@ -11,17 +11,28 @@ body{
 main{
     position: relative;
 }
-#nav{
-    display: block;
+#nav img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px solid white;
+    box-sizing: border-box;
+    margin: 10px;
+}
+#nav img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.671);
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s
+}
+section#nav{
     text-align: right;
-    border-radius: 50px;
 }
 section#iphone{
     position: absolute;
-    top: 50%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../imagens/frame-iphone.png);
+    background: url(../imagens/frame-iphone.png) no-repeat center top;
+    background-size: cover;
     height: 627px;
     width: 311px;
 }
@@ -29,7 +40,7 @@ section > iframe{
     position: absolute;
     top: 11%;
     left: 3%;
-    height: 500px;
-    width: 280px;
+    height: 473px;
+    width: 270px;
     padding: 10px;
 }
