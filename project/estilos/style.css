@@ -12,7 +12,7 @@ main{
     position: relative;
 }
 #nav img{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
     box-shadow: 1px 1px 1px solid white;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ section#nav{
 }
 section#iphone{
     position: absolute;
-    top: 85%;
+    top: 116%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(../imagens/frame-iphone.png) no-repeat center top;
